@@ -9,7 +9,7 @@ import VisibleTodoList from '../containers/VisibleTodoList'
 const App = ({ match: { params } }) => {
   return (
     <div>
-      <Header />
+      <Header page={params.page || '/'} />
       <Home />
       {/*
       <AddTodo />

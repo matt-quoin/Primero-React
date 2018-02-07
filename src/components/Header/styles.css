@@ -8,6 +8,13 @@
 #main-nav-container {
   padding: 0;
 }
+.standard-padding {
+  padding: 10px 20px;
+}
+.standard-padding-sides {
+  padding-left: 20px;
+  padding-right: 20px;
+}
 #top-nav-container .menu li {
   display: inline-block;
   margin-left: 1rem;
@@ -24,14 +31,23 @@
   width: 100%;
   z-index: 1091;
   height: 3.0625rem;
+  border: 0px;
   border-radius: 0px;
 }
 
 #main-nav.ui.menu .main-menu-item {
+  padding: 0px;
+}
+#main-nav.ui.menu .main-menu-item a {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  padding:10px;
+  height: 3.0625rem;
+  border-radius: 0px;
   color: #e6e6e6;
 }
-
-#main-nav.ui.menu .main-menu-item.active {
+#main-nav.ui.menu .main-menu-item a.active {
   color: #575757;
   background: #ffffff;
 }
