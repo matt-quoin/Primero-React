@@ -15,7 +15,7 @@ const Header = () => (
         </Grid.Column>
         <Grid.Column>
           <div className="standard-padding">
-            <ul class="menu simple align-right links">
+            <ul className="menu simple align-right links">
               <li>
                 Logged in as: primero
               </li>
